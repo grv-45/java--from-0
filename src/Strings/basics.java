@@ -91,7 +91,7 @@ public class basics {
             // 15. Converting string to char array
             char[] charArr = input.toCharArray();
             System.out.println("Characters in input:");
-            for(char c : charArr) {
+            for(char c : charArr){
                 System.out.print(c + " ");
             }
             System.out.println();
