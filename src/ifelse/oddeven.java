@@ -2,7 +2,7 @@ package ifelse;
 
 import java.util.Scanner;
 
-class OddEven {
+class oddEven {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a positive integer: ");
