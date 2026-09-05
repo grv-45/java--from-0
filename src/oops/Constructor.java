@@ -9,12 +9,12 @@ public class Constructor {
         int mob; // declaration of object
 
         // Parameterized constructor
-        student(int x, String name, int age, String bike, int mo){// value assign krdenge ek constructr bnake jo helpful hoga
+        student(int x, String name, int age, String bike, int mobile){// value assign krdenge ek constructr bnake jo helpful hoga
             obj = x;
             st_name = name;
             st_age = age;
             st_bike = bike;
-            mob = mo;
+            mob = mobile;
         }
 
         // Method to print student details
@@ -25,7 +25,7 @@ public class Constructor {
 
     public static void main(String[] args) {
         // Pass all 5 arguments
-        student s1 = new student(1, "Kritika", 34, "Hayabusa", 987654321);// object creae krke usme value set krdenge
+        student s1 = new student(1, "Kritika", 34, "Hayabusa", 987654321);// object create krke usme value set krdenge
         s1.print();
     }
 }

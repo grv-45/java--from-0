@@ -3,7 +3,7 @@ package basics;
 public class TypeConversion {
     public static void main(String[] args) {
 
-        //implicit: those converion where destination is largerthan source data type
+        //implicit: those converion where destination is larger  than source data type
         //Byte to int
         byte b=98;
         int i =b;
